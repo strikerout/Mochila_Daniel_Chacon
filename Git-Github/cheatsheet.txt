@@ -1,0 +1,44 @@
+Clonar un repositorio existente:
+$ git clone ssh://usuario@domain.com/repo.git
+
+Crear un nuevo repositorio local:
+$ git init
+
+Agregar un archivo específico:
+$ git add nombre_archivo
+
+Agregar todos los archivos modificados:
+$ git add .
+
+Agregar cambios interactivamente:
+$ git add -p
+
+Realizar un commit con un mensaje:
+$ git commit -m "Mensaje del commit"
+
+Realizar un commit que incluye todos los cambios realizados:
+$ git commit -a -m "Mensaje del commit"
+
+Enviar los cambios al repositorio remoto:
+$ git push nombre_remoto nombre_rama
+
+Ejemplo:
+$ git push origin main
+
+Obtener los cambios del repositorio remoto:
+$ git pull nombre_remoto nombre_rama
+
+Ejemplo:
+$ git pull origin main
+
+Crear una nueva rama:
+$ git branch nombre_rama
+
+Cambiar a una rama existente:
+$ git checkout nombre_rama
+
+Eliminar una rama:
+$ git branch -d nombre_rama
+
+Listar todas las ramas:
+$ git branch -a
