@@ -1,0 +1,9 @@
+-IP Privada y Pública de la Máquina Virtual:
+IP Privada: 10.0.2.15
+IP Pública: 186.55.249.99
+
+-Dirección MAC de la Máquina Virtual:
+MAC: 255.255.255.0
+
+-¿Es diferente a la IP pública y privada de nuestra máquina host?
+La IP privada es distinta. La IP Pública es la misma ya que esta máquina se conecta a internet através de la host.
